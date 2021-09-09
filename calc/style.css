@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,40px);
+    gap: 5px;
+}
+main > input{
+    background-color:papayawhip;
+    color: black;
+    border: none;
+}
+main > input:hover{
+    background-color:rosybrown;
+    color:white;
+    cursor: pointer;
+}
+main> input:active{
+    background-color: black;
+    color: white;
+}
